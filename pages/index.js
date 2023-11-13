@@ -162,7 +162,7 @@ export default function Home() {
             <br />
             <p className='ml-5 italic'> - WAAN tech</p>
             <p className='ml-10 text-sm '>Role: Web Devlopment Intern</p>
-            <p className='ml-14 text-sm font-thin'>Made significant contributions to the company's projects, leveraging technologies such as React, Next.js, and related frameworks </p>
+            <p className='ml-14 text-sm font-thin'>Made significant contributions to the companys projects, leveraging technologies such as React, Next.js, and related frameworks </p>
           </div>
         </div>
 
