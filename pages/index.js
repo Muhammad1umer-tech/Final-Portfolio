@@ -36,54 +36,57 @@ export default function Home() {
       </div>
       <p className='font-bold text-2xl text-white mb-5'>Projects</p>
       <div className="grid relative z-[2] lg:grid-cols-4 gap-5 mb-16">
-        <Link href="https://github.com/nwaliaez" className=" rounded bg-white md:h-60 h-72 shadow-sm">
+        <Link href="https://bank-customer-prediction.vercel.app/dashboard" className=" rounded bg-white md:h-60 h-72 shadow-sm">
           <div className='md:h-[50%] h-[60%] overflow-hidden' >
-            <Image alt='image' src='/images/th.jpeg' width={400} height={500}/>
+            <Image alt='image' src='/images/4455.jpg' width={1000} height={1000}/>
             {/* <img src='/images/th.jpeg' /> */}
           </div>
           <div className='md:h-[50%] h-[40%] flex flex-col  items-center justify-center '>
             <div className=' w-[90%] '>
-              <p className='font-bold'>Discord clone</p>
-              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Next.js 13, React Hook Form, Zustand, Shadcn, Typescript</p>
+              <p className='font-bold'>Bank Customer Churn</p>
+              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Next.js, React Hook Form, Tailwind CSS, Restful APIs</p>
             </div>
           </div>
 
         </Link >
         <div className="rounded bg-white md:h-60  h-72 shadow-sm">
           <div className='md:h-[50%]  h-[60%] overflow-hidden'>
-          <Image alt='image' src='/images/th.jpeg' width={400} height={500}/>
+          <Image alt='image' src='/images/amazon-clone.webp'  className="object-cover h-[100%] w-[100%] "  width={600} height={900}/>
             {/* <img src='/images/th.jpeg' /> */}
           </div>
           <div className='md:h-[50%] h-[40%] flex flex-col  items-center justify-center '>
             <div className=' w-[90%] '>
-              <p className='font-bold'>Discord clone</p>
-              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Next.js 13, React Hook Form, Zustand, Shadcn, Typescript</p>
+              <p className='font-bold'>Amazon Clone</p>
+              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Next.js,Restful APIs, React Hook Form, Tailwind CSS, MongoDB</p>
             </div>
           </div>
 
         </div>
         <div className="rounded bg-white md:h-60  h-72 shadow-sm">
           <div className='md:h-[50%] h-[60%] overflow-hidden '>
-          <Image alt='image' src='/images/th.jpeg' width={400} height={50}/>
+          <Image alt='image' src='/images/eve.jpg' width={400} height={50}  className="object-cover h-[100%] w-[100%]"/>
             {/* <img src='/images/th.jpeg' /> */}
           </div>
           <div className='md:h-[50%] h-[40%] flex flex-col  items-center justify-center '>
             <div className=' w-[90%] '>
-              <p className='font-bold'>Discord clone</p>
-              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Next.js 13, React Hook Form, Zustand, Shadcn, Typescript</p>
+              <p className='font-bold'>Next Events</p>
+              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Next.js 13, React Hook Form, Bootstrap CSS </p>
             </div>
           </div>
 
         </div>
         <div className="rounded bg-white md:h-60  h-72 shadow-sm">
           <div className='md:h-[50%] h-[60%] overflow-hidden   '>
-          <Image alt='image' src='/images/th.jpeg' width={400} height={500}/>
+          <Image alt='image' src='/images/razorpay-logo.png' width={400} height={500}/>
             {/* <img src='/images/th.jpeg' /> */}
           </div>
           <div className='md:h-[50%] h-[40%] flex flex-col  items-center justify-center '>
             <div className=' w-[90%] '>
-              <p className='font-bold'>Discord clone</p>
-              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Next.js 13, React Hook Form, Zustand, Shadcn, Typescript</p>
+              <p className='font-bold'>RazorPay clone</p>
+              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>HTML, Tailwind CSS , CSS Grids
+              <br/>
+              <br/>
+              </p>
             </div>
           </div>
         </div>
