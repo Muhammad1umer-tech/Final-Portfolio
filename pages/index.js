@@ -5,7 +5,7 @@ export default function Home() {
   const [text, setText] = useState('');
 
   useEffect(() => {
-    const originalText = 'Anas Ashfaq';
+    const originalText = 'Muhammad Umer';
     let index = 0;
     const intervalId = setInterval(() => {
       setText(originalText.substring(0, index + 1));
@@ -36,128 +36,171 @@ export default function Home() {
       </div>
       <p className='font-bold text-2xl text-white mb-5'>Projects</p>
       <div className="grid relative z-[2] lg:grid-cols-4 gap-5 mb-16">
-        <Link href="https://bank-customer-prediction.vercel.app/dashboard" className=" rounded bg-white md:h-60 h-72 shadow-sm">
+        <Link href="https://github.com/Muhammad1umer-tech/ChestXGPT" className=" rounded bg-white md:h-60 h-72 shadow-sm">
           <div className='md:h-[50%] h-[60%] overflow-hidden' >
-            <Image alt='image' src='/images/4455.jpg' width={1000} height={1000}/>
+            <Image alt='image' src='/images/chestXGPT.JPG' width={1000} height={1000}/>
             {/* <img src='/images/th.jpeg' /> */}
           </div>
           <div className='md:h-[50%] h-[40%] flex flex-col  items-center justify-center '>
             <div className=' w-[90%] '>
-              <p className='font-bold'>Bank Customer Churn</p>
-              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Next.js, React Hook Form, Tailwind CSS, Restful APIs</p>
+              <p className='font-bold'>ChestXGPT (Final year Project)</p>
+              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>AI-Powered platform that detect disease of a given Chest X-ray image.</p>
             </div>
           </div>
 
         </Link >
         <div className="rounded bg-white md:h-60  h-72 shadow-sm">
           <div className='md:h-[50%]  h-[60%] overflow-hidden'>
-          <Image alt='image' src='/images/amazon-clone.webp'  className="object-cover h-[100%] w-[100%] "  width={600} height={900}/>
+          <Image alt='image' src='/images/azure.webp'  className="object-cover h-[100%] w-[100%] "  width={600} height={900}/>
             {/* <img src='/images/th.jpeg' /> */}
           </div>
           <div className='md:h-[50%] h-[40%] flex flex-col  items-center justify-center '>
             <div className=' w-[90%] '>
-              <p className='font-bold'>Amazon Clone</p>
-              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Next.js,Restful APIs, React Hook Form, Tailwind CSS, MongoDB</p>
+              <p className='font-bold'>Microsoft Azure Olympic data Project</p>
+              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Developed Production based Pipelines, and transformed tokyo olympic data.</p>
             </div>
           </div>
 
         </div>
         <div className="rounded bg-white md:h-60  h-72 shadow-sm">
           <div className='md:h-[50%] h-[60%] overflow-hidden '>
-          <Image alt='image' src='/images/eve.jpg' width={400} height={50}  className="object-cover h-[100%] w-[100%]"/>
+          <Image alt='image' src='/images/new.JPG' width={400} height={50}  className="object-cover h-[100%] w-[100%]"/>
             {/* <img src='/images/th.jpeg' /> */}
           </div>
           <div className='md:h-[50%] h-[40%] flex flex-col  items-center justify-center '>
             <div className=' w-[90%] '>
-              <p className='font-bold'>Next Events</p>
-              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Next.js 13, React Hook Form, Bootstrap CSS </p>
+              <p className='font-bold'>Sql Music-store Analysis</p>
+              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Used Mysql easy, medium, complex concepts to analyse music store data.</p>
             </div>
           </div>
 
         </div>
         <div className="rounded bg-white md:h-60  h-72 shadow-sm">
           <div className='md:h-[50%] h-[60%] overflow-hidden   '>
-          <Image alt='image' src='/images/razorpay-logo.png' width={400} height={500}/>
+          <Image alt='image' src='/images/new1.JPG' width={400} height={500}/>
             {/* <img src='/images/th.jpeg' /> */}
           </div>
           <div className='md:h-[50%] h-[40%] flex flex-col  items-center justify-center '>
             <div className=' w-[90%] '>
-              <p className='font-bold'>RazorPay clone</p>
-              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>HTML, Tailwind CSS , CSS Grids
+              <p className='font-bold'>Pizzeria Data Analytics</p>
+              <p className='text-[0.7rem] md:w-[90%] w-[100%]'>Create dataset,
+               snowflake schema, transform it using PowerQuery and make dashboard using PowerBi.
               <br/>
               <br/>
               </p>
             </div>
           </div>
         </div>
+  
       </div>
       <p className='font-bold text-xl text-white mb-5'>What i know</p>
       <div className="grid relative z-[2] h-full  w-full lg:grid-cols-4 gap-5 mb-16">
-        <div className="rounded p-5 bg-[#1c1b23] md:h-56  w-full h-40 shadow-sm">
-          <p className='mb-3 font-bold text-[#8b8a91]'>FrontEnd</p>
+        <div className="rounded p-5 bg-[#1c1b23] md:h-fit  w-full h-64 shadow-sm">
+          <p className='mb-3 font-bold text-[#8b8a91]'>Microsoft Azure</p>
           <div className='flex flex-wrap'>
-            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-400 border text-gray-400  mr-[7px] rounded-md p-2'>Tailwind</p>
-            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Bootstrap</p>
-            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>React Js</p>
-            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Next Js</p>
-            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>React Native</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-400 border text-gray-400  mr-[4px] rounded-md p-2'>Azure DataFactory</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-red-400 border text-gray-400  mr-[7px] rounded-md p-2'>Azure Dataflow</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Azure Blob Storage</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>Azure Data Lake</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Azure Databricks</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Apache Spark</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Azure SQL Database</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Azure Databricks Cluster</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Azure HD insights Cluster</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Snaypse Analytics</p>
           </div>
         </div>
-        <div className="rounded p-5 bg-[#1c1b23] md:h-56  w-full h-32 shadow-sm">
-          <p className='mb-3  font-bold text-[#8b8a91]'>BackEnd</p>
+        <div className="rounded p-5 bg-[#1c1b23] md:h-[494px]  w-full h-64 shadow-sm">
+          <p className='mb-3  font-bold text-[#8b8a91]'>Data Analytics</p>
           <div className='flex flex-wrap'>
-            <p className='bg-[#14131A] w-fit text-sm my-[5px]  text-gray-400  mr-[7px] rounded-md p-2'>Java</p>
-            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-yellow-400 border text-gray-400  mr-[7px] rounded-md p-2'>Javascript</p>
-            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>Next Auth</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px]  text-gray-400  mr-[7px] rounded-md p-2'>Microsoft Excel</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-yellow-400 border text-gray-400  mr-[7px] rounded-md p-2'>Microsoft PowerBI</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Power Query</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>Mysql</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>QuickDB</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>Star Schema</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>Snowflake Schema</p>
           </div>
         </div>
 
-        <div className="rounded p-5  bg-[#1c1b23] md:h-56  w-full h-40 shadow-sm">
-          <p className='mb-3 font-bold text-[#8b8a91]'>Database</p>
+        <div className="rounded p-5  bg-[#1c1b23] md:h-[494px]  w-full h-64 shadow-sm">
+          <p className='mb-3 font-bold text-[#8b8a91]'>Data Science & Libraries</p>
           <div className='flex flex-wrap'>
-            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-400 border text-gray-400  mr-[7px] rounded-md p-2'>MySql</p>
-            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400 border-green-400 border mr-[7px] rounded-md p-2'>Mongo DB</p>
-            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400 border-yellow-400 border  mr-[7px] rounded-md p-2'>Firebase</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-400 border text-gray-400  mr-[7px] rounded-md p-2'>Statistics</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400 border-green-400 border mr-[7px] rounded-md p-2'>Pandas</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400 border-yellow-400 border  mr-[7px] rounded-md p-2'>Numpy</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400 border-green-400 border mr-[7px] rounded-md p-2'>Matplotlib</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400 border-green-400 border mr-[7px] rounded-md p-2'>Tensorflow</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400 border-green-400 border mr-[7px] rounded-md p-2'>os</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400 border-green-400 border mr-[7px] rounded-md p-2'>glob</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400 border-green-400 border mr-[7px] rounded-md p-2'>Data Preprocessing</p>
+            <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400 border-green-400 border mr-[7px] rounded-md p-2'>PIL</p>
           </div>
 
         </div>
-        <div className="rounded bg-[#1c1b23] md:h-56  w-full h-28 shadow-sm">
-          <div className="rounded p-5 bg-[#1c1b23] md:h-56  w-full h-40 shadow-sm">
-            <p className='mb-3 font-bold text-[#8b8a91]'>Languages</p>
+        <div className="rounded bg-[#1c1b23] md:h-[494px]  w-full h-28 shadow-sm">
+          <div className="rounded p-5 bg-[#1c1b23] md:h-56  w-full h-64 shadow-sm">
+            <p className='mb-3 font-bold text-[#8b8a91]'>Other</p>
             <div className='flex flex-wrap'>
-              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-400 border text-gray-400  mr-[7px] rounded-md p-2'>C++</p>
-              <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Java</p>
-              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>Javascript</p>
               <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400 border-red-400   border  mr-[7px] rounded-md p-2'>Python</p>
-              <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Dart</p>
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>Javascript</p>
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] text-gray-400  mr-[7px] rounded-md p-2'>LeetCode</p>
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-400 border text-gray-400  mr-[7px] rounded-md p-2'>C++</p>  
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>GeeksForGeeks</p>
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>Github</p>
             </div>
+            <p className='mb-3 font-bold text-[#8b8a91] mt-2'>Coursework</p>
+            <div className='flex flex-wrap'>
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-400 border text-gray-400  mr-[7px] rounded-md p-2'>PF</p>
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-400 border text-gray-400  mr-[7px] rounded-md p-2'>OOP</p>
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-400 border text-gray-400  mr-[7px] rounded-md p-2'>DSA</p>
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>OS</p>
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>AI</p>
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>Networks</p>
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>Automata</p>
+              <p className='bg-[#14131A] w-fit text-sm my-[5px] border-blue-600   border text-gray-400  mr-[7px] rounded-md p-2'>Compiler Design</p>
+            </div>
+
           </div>
         </div>
       </div>
 
 
 
-      <div className='h-96 flex  justify-between flex-wrap'>
+      <div className='h-96 flex md:mt-0 mt-[10rem] justify-between flex-wrap'>
         <div className='text-white w-full md:w-[65%] m-3 p-4 border border-gray-600'>
           <p className='font-bold text-2xl text-blue-500'>
             About Me
           </p>
           <div className='border-b-[0.2px] border-gray-500 pb-4'></div>
           <div className='mt-4'>
-            🔭 I’m currently pursuing:
+            🔭 A final year computer science student who has a good knowledge of Data structures, Algorithms, Microsoft Azure, 
+            Python and wants to contribute in Data Engineering field.
+            <br />
             <br />
             <div className='ml-10'>
               Bachelor in Computer Science
             </div>
             <p className='ml-14 font-thin text-sm'>
-              5th semester - 3.67CGPA
+              7th semester - 3.43CGPA | 3.82GPA
             </p>
           </div>
+          <br />
           <div className='mt-4'>
             👯 I’m looking to collaborate on:
             <br />
+            <br />
             <div className='ml-10'>
-              Fullstack projects
+              * Python Projects
+            <br />
+              * Data Engineering Projects
+            <br />
+              * Data Analytics Projects
+            <br />
+              * Big data Projects
+            <br />
+              * Data Science Projects
+              
             </div>
           </div>
           <div className='mt-4'>
@@ -166,6 +209,14 @@ export default function Home() {
             <p className='ml-5 italic'> - WAAN tech</p>
             <p className='ml-10 text-sm '>Role: Web Devlopment Intern</p>
             <p className='ml-14 text-sm font-thin'>Made significant contributions to the companys projects, leveraging technologies such as React, Next.js, and related frameworks </p>
+          
+            <br />
+            <br />
+            <p className='ml-5 italic'> - WAAN tech</p>
+            <p className='ml-10 text-sm '>Role: Web Devlopment Intern</p>
+            <p className='ml-14 text-sm font-thin'>Made significant contributions to the companys projects, leveraging technologies such as React, Next.js, and related frameworks </p>
+            <br />
+          
           </div>
         </div>
 
@@ -185,7 +236,7 @@ export default function Home() {
               </div>
               <div className='w-[100px] text-[#8b8a91]'>
                 <p className='font-bold'>
-                  Ez Clothing
+                  Bank Churn Prediction
                 </p>
                 <p className='font-thin text-[0.75rem]'>
                   Next.js 13, Drizzle, PostgreSql, Docker, ShadCn
