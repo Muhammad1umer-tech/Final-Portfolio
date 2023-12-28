@@ -71,7 +71,7 @@ const SideBar = forwardRef(({ showNav }, ref) => {
           </div>
         </Link>
         <p className="font ml-6 text-[#8b8a91]">Socials</p>
-        <Link href="https://www.linkedin.com/in/anas-ashfaq-612322267/">
+        <Link href="https://www.linkedin.com/in/mumer11/">
           <div
             className={`pl-6 py-3 mx-5 rounded text-center cursor-pointer mb-3 flex items-center transition-colors
              ${
@@ -90,7 +90,7 @@ const SideBar = forwardRef(({ showNav }, ref) => {
             </div>
           </div>
         </Link>
-        <Link href="https://github.com/AanasAashfaq">
+        <Link href="https://github.com/Muhammad1umer-tech">
           <div
             className={`pl-6 py-3 mx-5 rounded text-center cursor-pointer mb-3 flex items-center transition-colors
              ${
