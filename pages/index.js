@@ -5,7 +5,7 @@ export default function Home() {
   const [text, setText] = useState('');
 
   useEffect(() => {
-    const originalText = 'Muhammad Umer';
+    const originalText = 'haha';
     let index = 0;
     const intervalId = setInterval(() => {
       setText(originalText.substring(0, index + 1));
